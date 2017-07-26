@@ -2,44 +2,31 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Ejercicio Guiado BEM</title>
-	<!-- Link archivo css-->
-	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<title>portafolio bem</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aurora-grid/1.0.8/aurora-grid.css">
+	<link type="text/css" href="sass/materialize-src/sass/materialize.scss"  media="screen,projection"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/main.css">
+
 </head>
 <body>
-	<!--Menu clases BEM-->
-	<ul class="a-menu">
-		<li class="a-menu_item">
-			<a class="a-menu_item_link" href="#">BLOG</a>
-		</li>
-		<li class="a-menu_item">
-			<a class="a-menu_item_link" href="#">ABOUT</a>
-		</li>
-		<li class="a-menu_item">
-			<a class="a-menu_item_link" href="#">CONTACTO</a>
-		</li>
-	</ul>
-	<section>
-		<div class="article--green">
-			<h2 class="article_title">Mermeladas</h2>
-			<p class="article_desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam dolorum, consequatur suscipit voluptate dicta velit, quisquam ea aliquam possimus doloribus illo. Accusantium voluptatum consequatur aut saepe! Necessitatibus reiciendis quibusdam earum?</p>
-			<img class="article_img" src="img/mermeladas pirque.jpg" alt="mermeladas">
-		</div>
-		<div class="article--green">
-			<h2 class="article_title">Comida Saludable</h2>
-			<p class="article_desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam dolorum, consequatur suscipit voluptate dicta velit, quisquam ea aliquam possimus doloribus illo. Accusantium voluptatum consequatur aut saepe! Necessitatibus reiciendis quibusdam earum?</p>
-			<img class="article_img" src="img/comida-vegana-230x130.jpg" alt="comida vegana">
-		</div>
-		<div class="article--green">
-			<h2 class="article_title">Los beneficios de la miel</h2>
-			<p class="article_desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam dolorum, consequatur suscipit voluptate dicta velit, quisquam ea aliquam possimus doloribus illo. Accusantium voluptatum consequatur aut saepe! Necessitatibus reiciendis quibusdam earum?</p>
-			<img class="article_img" src="img/MIEL-DE-ABEJA-230x130.png" alt="miel de abejas">
-		</div>
-	</section>
-	<footer class="pie">
-		<p class="pie_item--center">Create by Someone</p>
-	</footer>
+	
+
+	<div class="nav">
+		<ul class="nav__menu">
+			<li class="nav__menu__item">
+				<a href=""><img src="img/profile.png" alt="" class="nav__menu__item--img-profile"></a>
+			</li>
+			<li class="nav__menu__item nav__menu__item--links nav__menu__item--fondoAzul"><a href=""><i class="fa fa-user" aria-hidden="true"></i>PROFILE</a></li>
+
+
+			<li class="nav__menu__item nav__menu__item--links"><a href="#"><i class="fa fa-trophy" aria-hidden="true"></i>SKILL</a></li>
+			<li class="nav__menu__item nav__menu__item--links"><a href="#"><i class="fa fa-picture-o" aria-hidden="true"></i>WORK</a></li>
+			<li class="nav__menu__item nav__menu__item--links"><a href="#"><i class="fa fa-file-image-o" aria-hidden="true"></i>RESUME</a></li>
+
+		</ul>
+	</div>
+
+
 </body>
 </html>
