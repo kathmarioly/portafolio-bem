@@ -41,21 +41,31 @@
 	margin-top: -24px;
 	color: white;
 
+	&__info{
+		margin: 0 auto;
+		width: 70%;
+		padding: 40px 20px;
+		&__name{
+			margin-bottom: 0;
+			color: $verde;
+		}
+		&__profession{
+			margin: 10px 0;
+			font-size: 20px;
+		}
+		&__description{
+			padding: 10px 0;
+		}
 
-	list-style: none;
-	padding: 10px;
-	&--img-profile{
-		border-radius: 50%;
-		width: 60px;
-		border: 2px solid whitesmoke;
-		background-color: $gris;
 	}
-	&--fondoAzul{
-		border-radius: 20px;
-		background-color: $azul;
+	&__iconos__item{
+		display:inline-block;
+		padding: 0px 15px 0px 10px;
 	}
-	i{
-		
-
+	button{
+		border-radius: 30px;
+		background-color: $verde;
 	}
 
+
+}
