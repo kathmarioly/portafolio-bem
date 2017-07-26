@@ -1,32 +1,35 @@
 @import url("https://fonts.googleapis.com/css?family=PT+Serif:400,700");
-.nav {
+.navbar {
   background-color: #F04949;
   margin: 0;
   padding: 0 15%;
   top: 10px; }
 
-.nav__menu {
+.navbar__menu {
   box-sizing: border-box;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
   font-family: 'Roboto', sans-serif; }
-  .nav__menu__item {
+  .navbar__menu__item {
     list-style: none;
     padding: 10px; }
-    .nav__menu__item--img-profile {
+    .navbar__menu__item--img-profile {
       border-radius: 50%;
       width: 60px;
       border: 2px solid whitesmoke;
       background-color: #D3C9BD; }
-    .nav__menu__item--fondoAzul {
+    .navbar__menu__item--fondoAzul {
       border-radius: 20px;
       background-color: #203748; }
-    .nav__menu__item i {
+    .navbar__menu__item i {
       padding: 0 5px; }
-    .nav__menu__item a {
+    .navbar__menu__item a {
       color: white;
       text-decoration: none; }
+
+.perfil {
+  background-color: #203748; }
 
 /*# sourceMappingURL=main.css.map */

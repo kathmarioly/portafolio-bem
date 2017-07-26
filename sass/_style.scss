@@ -1,12 +1,12 @@
 //ESTILOS MENU
-.nav{
+.navbar{
 	background-color: $rosado;
 	margin: 0;
 	padding: 0 15%;
 	top: 10px;
 }
 
-.nav__menu{
+.navbar__menu{
 	box-sizing: border-box;
 	display: flex;
 	flex-direction: row;
@@ -36,6 +36,8 @@
 		
 	}
 }
-
+.perfil{
+	background-color: $azul;
+}
 
 
