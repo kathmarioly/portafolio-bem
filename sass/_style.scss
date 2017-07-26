@@ -38,6 +38,24 @@
 }
 .perfil{
 	background-color: $azul;
-}
+	margin-top: -24px;
+	color: white;
 
+
+	list-style: none;
+	padding: 10px;
+	&--img-profile{
+		border-radius: 50%;
+		width: 60px;
+		border: 2px solid whitesmoke;
+		background-color: $gris;
+	}
+	&--fondoAzul{
+		border-radius: 20px;
+		background-color: $azul;
+	}
+	i{
+		
+
+	}
 
